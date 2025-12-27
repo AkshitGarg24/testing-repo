@@ -1,11 +1,13 @@
-import React from 'react'
 
-const DashBoardPage = () => {
-  return (
-    <div>
-      DashBoardPage
-    </div>
-  )
+
+function calculateDiscount(price: number, discount: number) {
+  if (discount > 100) {
+    return price - (price * discount); 
+  }
+  
+  return price - (price * discount / 100);
 }
 
-export default DashBoardPage
+export const helper = {
+  calculateDiscount
+};
