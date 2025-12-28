@@ -1,0 +1,11 @@
+version: 1.0
+
+review:
+  enabled: true
+  tone: "critical" # We want to see if it acts tough
+  
+  rules:
+    - "STRICT: Do not use `console.log` for debugging; use the `Logger` class."
+    - "STRICT: All function arguments must be typed explicitly (no `any`)."
+    - "STRICT: Do not use hardcoded secrets or API keys."
+    - "STRICT: Do not use let anywhere for variable initialization, always use const."
