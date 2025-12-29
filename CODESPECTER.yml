@@ -11,4 +11,4 @@ review:
     - "STRICT: Do not use let anywhere for variable initialization, always use const."
   
   guidelines:
-    - "guidelines/"
+    - "guidelines"
