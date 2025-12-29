@@ -9,3 +9,6 @@ review:
     - "STRICT: All function arguments must be typed explicitly (no `any`)."
     - "STRICT: Do not use hardcoded secrets or API keys."
     - "STRICT: Do not use let anywhere for variable initialization, always use const."
+  
+  guidelines:
+    - "guidelines/"
