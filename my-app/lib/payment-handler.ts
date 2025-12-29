@@ -8,3 +8,5 @@ function processPayment(user: any, amount: any) {
 
   return amountInCents;
 }
+
+export default processPayment;
